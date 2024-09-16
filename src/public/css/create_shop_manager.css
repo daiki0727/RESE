@@ -1,0 +1,76 @@
+.create-shop-data__inner {
+    padding: 25px;
+}
+
+.create-shop-data__hedding {
+    text-align: center;
+    font-size: 32px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.create-shop-data__table {
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+th {
+    text-align: left;
+    font-size: 28px;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+}
+
+.area-select,
+.genre-select {
+    padding: 0 10px;
+    font-weight: bold;
+    text-decoration: none;
+    width: 305px;
+    height: 35px;
+    cursor: pointer;
+}
+
+textarea {
+  resize: none;
+  width:300px;
+  height:150px;
+}
+
+.create-btn {
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: 1px solid #0239ff;
+    background-color: #0239ff;
+    color: #F4F4F4;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: auto;
+}
+
+.error-message {
+    padding: 5px;
+    margin: 5px;
+    font-size: 14px;
+    color: red; 
+    text-align: left;
+}
+
+@media screen and (max-width:768px){
+    th,
+    td {
+        display: block;
+        text-align: center;
+    }
+}

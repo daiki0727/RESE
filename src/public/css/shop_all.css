@@ -1,0 +1,152 @@
+.search-form {
+    margin-top: -70px;
+    width: 100%;
+}
+
+.search-form__inner {
+    padding: 10px;
+    width: 42%;
+    margin-left: 50%;
+}
+
+.shop-search {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px #797979;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+
+.area-select,
+.genre-select {
+    border: #FFFFFF;
+    border-right:1px solid #dfdfdf;
+    padding: 0 10px;
+    font-weight: bold;
+    text-decoration: none;
+    height: 35px;
+    cursor: pointer;
+}
+
+.area-select {
+    border-radius: 5px 0 0 5px;
+}
+
+.search-btn {
+    border: #FFFFFF;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    width: 10%;
+    height: 50px;
+    cursor: pointer;
+}
+
+.shop-search__input {
+    border: #FFFFFF;
+    border-radius: 0 5px 5px 0;
+    font-weight: bold;
+    width: 40%;
+    height: 50px;
+}
+
+.card__inner {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 285px;
+    margin: 30px 10px 10px 10px;
+    box-shadow: 3px 3px 5px #797979;
+    border-radius: 5px;
+}
+
+.card__img img {
+    width: 100%;
+    height: 170px;
+    border-radius: 5px 5px 0 0;
+}
+
+.card__content {
+    padding: 15px;
+}
+
+.card__content-shop {
+    padding: 5px;
+    height: 35px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.card__content-tag {
+    margin-bottom: 10px;
+}
+
+.card__content-tag--area,
+.card__content-tag--genre {
+    display: inline;
+    font-size: 12px;
+}
+
+.card__btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.detail-btn {
+    text-decoration: none;
+    display: block;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+    background-color: #305DFF;
+    color: #F4F4F4;
+    font-size: 14px;
+}
+
+.favorite-container {
+    align-items: center;
+}
+.favorite-btn {
+    font-size: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    transition: color 0.3s ease;
+    color: gray; /* 未登録時はグレー */
+}
+
+.favorite-btn:hover {
+    color: red;
+}
+
+.favorite-btn.favorited {
+    color: red; /* 登録時は赤 */
+}
+
+@media screen and (max-width:768px){
+    .search-form {
+        margin-top: 0px;
+        width: 100%;
+    }
+    .search-form__inner {
+        padding: 10px;
+        width: 78%;
+        margin: 0 auto;
+    }
+    .area-select,
+    .genre-select {
+        font-size: 50%;
+    }
+    .shop-search__input {
+        font-size: 50%;
+    }
+}

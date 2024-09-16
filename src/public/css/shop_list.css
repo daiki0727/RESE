@@ -1,0 +1,27 @@
+.shop-list__container {
+    padding: 25px;
+}
+
+.shop-list__heading {
+    padding: 10px;
+    text-align: center;
+}
+
+.shop-list__inner {
+    padding: 5px;
+}
+
+.shop-list__inner {
+    margin-bottom: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.shop-list__href {
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+    color: #305DFF;
+    font-size: 40px;
+}

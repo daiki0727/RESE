@@ -1,0 +1,57 @@
+.reservation-confirmation__heading {
+    text-align: center;
+}
+
+.reservation-confirmation__inner {
+    padding: 10px;
+}
+
+.reservation-confirmation__table {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.reservation-confirmation__row {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 2px #305DFF;
+}
+
+.reservation-confirmation__label,
+.reservation-confirmation__data {
+    table-layout: fixed;
+    width: 120px;
+    text-align: center;
+    padding: 20px 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .reservation-confirmation__table {
+        width: 100%;
+        margin: 0;
+    }
+
+    .reservation-confirmation__row {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        border-bottom: none;
+        width: 50%;
+        padding: 10px;
+        border: solid 2px #305DFF;
+        border-radius: 5px;
+    }
+
+    .reservation-confirmation__label,
+    .reservation-confirmation__data {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .reservation-confirmation__label {
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+}

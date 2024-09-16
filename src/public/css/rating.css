@@ -1,0 +1,89 @@
+.create-review__inner {
+    padding: 40px 100px;
+}
+
+.back-btn {
+    background-color: #FFFFFF;
+    font-size: 16px;
+    border: 1px solid #F4F4F4;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px #797979;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.create-review__hedding {
+    text-align: center;
+    font-size: 32px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.create-review__table {
+    margin-left: 180px;
+    margin-bottom: 30px;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+th {
+    text-align: left;
+    font-size: 28px;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+}
+
+textarea {
+  resize: none;
+  width:500px;
+  height:200px;
+}
+
+.create-review-btn {
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: 1px solid #0239ff;
+    background-color: #0239ff;
+    color: #F4F4F4;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: auto;
+}
+
+/*star評価ボタン*/
+.rate-form {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+.rate-form input[type=radio] {
+  display: none;
+}
+.rate-form label {
+  position: relative;
+  padding: 0 5px;
+  margin-bottom: 12px;
+  color: #ccc;
+  cursor: pointer;
+  font-size: 40px;
+}
+.rate-form label:hover {
+  color: #ffcc00;
+}
+.rate-form label:hover ~ label {
+  color: #ffcc00;
+}
+.rate-form input[type=radio]:checked ~ label {
+  color: #ffcc00;
+}

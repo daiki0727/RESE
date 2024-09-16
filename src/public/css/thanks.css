@@ -1,0 +1,34 @@
+.thanks__container {
+    background-color: #FFFFFF;
+    width: 35%;
+    text-align: center;
+    margin: 70px auto;
+    padding: 100px 50px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px #797979;
+}
+
+.thanks__message {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 50px;
+}
+
+.back-btn {
+    text-decoration: none;
+    background-color: #305DFF;
+    color: #F4F4F4;
+    padding: 10px 15px;
+    border-radius: 5px;
+    
+}
+
+@media screen and (max-width:768px){
+    .thanks__container {
+        padding: 100px 50px;
+    }
+
+    .thanks__message {
+        margin: 5%;
+    }
+}

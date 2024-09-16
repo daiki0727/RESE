@@ -1,0 +1,140 @@
+html,
+body {
+  height: 100%;
+      background-color: #F4F4F4;
+}
+
+main {
+    background-color: #F4F4F4;
+}
+
+img {
+  width: 25px;
+  height: 25px;
+}
+
+.header__inner {
+    display: flex;
+}
+
+.nav {
+  height: 80px;
+  align-items: center;
+}
+
+/*　menuボタン　*/
+.drawer__hidden {
+  display: none;
+}
+
+.drawer__open {
+  margin:20px 25px 0 100px;
+  display: flex;
+  height: 40px;
+  width: 40px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 100;/* 重なり順を一番上にする */
+  cursor: pointer;
+  background-color: #305DFF;
+  border-radius: 3px;
+    box-shadow: 3px 3px 5px #797979;
+
+}
+
+.drawer__open span,
+.drawer__open span:before,
+.drawer__open span:after {
+  content: '';
+  display: block;
+  height: 1px;
+  border-radius: 3px;
+  background: #FFFFFF;
+  transition: 0.5s;
+  position: absolute;
+}
+
+.drawer__open span {
+  width: 22px;
+}
+
+.drawer__open span:before {
+  width: 12px;
+}
+
+.drawer__open span:after {
+  width: 8px;
+}
+
+
+.drawer__open span:before {
+  bottom: 8px;
+}
+
+.drawer__open span:after {
+  top: 8px;
+}
+
+#drawer__input:checked ~ .drawer__open span {
+  background: rgba(255, 255, 255, 0);
+}
+
+#drawer__input:checked ~ .drawer__open span::before {
+  bottom: 0;
+  transform: rotate(45deg);
+  width: 22px;
+}
+
+#drawer__input:checked ~ .drawer__open span::after {
+  top: 0;
+  transform: rotate(-45deg);
+  width: 22px;
+}
+
+.nav__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 100%; /* メニューを画面の外に飛ばす */
+  z-index: 99;
+  background: #F4F4F4;
+  transition: .5s;
+}
+
+.nav__list {
+  list-style: none;
+}
+
+.nav__item {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.nav__item--href {
+    text-decoration: none;
+    color: #305DFF;
+}
+
+button.logout__btn {
+  text-decoration: none;
+  color: #305DFF;
+  background-color: #F4F4F4;
+  border: none;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+#drawer__input:checked ~ .nav__content {
+  left: 0;/* メニューを画面に入れる */
+}
+/*　menuボタン　*/
+
+.header__title {
+  color: #305DFF;
+}

@@ -1,0 +1,209 @@
+.shop-detail__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.left__inner {
+    grid-column: 1/2;
+    padding: 5px 20px 30px 20px;
+}
+
+.detail__heading {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+
+.back-btn {
+    background-color: #FFFFFF;
+    font-size: 16px;
+    border: 1px solid #F4F4F4;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px #797979;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.shop__name {
+    width: 55%;
+    font-size: 150%;
+    padding: 20px;
+}
+
+.comments-btn {
+    padding: 5px;
+    text-decoration: none;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+    background-color: #305DFF;
+    color: #F4F4F4;
+    font-size: 14px;;
+}
+
+.empty-star {
+    font-size: 24px;
+    color: lightgray;
+    padding: 20px 0;
+}
+
+.detail__img {
+    width: 100%;
+    height: 50%;
+}
+
+.shop__content-tag{
+    display: flex;
+    width: 90%;
+}
+
+.shop__content-tag--area,
+.shop__content-tag--genre,
+.shop__content-tag--rating {
+    display: flex;
+    align-items: center;
+    width: 90px;
+    padding: 5px;
+}
+
+.star {
+    display: flex;
+}
+
+.full-star,
+.half-star {
+    font-size: 24px;
+    color: gold;
+    margin-bottom: 6.5px;
+}
+
+.empty-star {
+    font-size: 24px;
+    padding: 0;
+}
+
+.shop__content-comment {
+    width: 100%;
+}
+
+.right__inner {
+    grid-column: 2/3;
+    padding: 5px 10px 30px 10px;
+}
+
+.reservation__container {
+    width: 100%;
+    height: 680px;
+    background-color: #305DFF;
+    color: #F4F4F4;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px #797979;
+    display: flex;
+    flex-direction: column;
+}
+
+.reservation__heading {
+    font-size: 24px;
+    margin: 30px 30px 5px 30px;
+}
+
+.livewire-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.reservation__content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.reservation__date {
+    width: 30%;
+    padding: 8px;
+    margin: 5px 30px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.reservation__time {
+    width: 80%;
+    padding: 8px;
+    margin: 5px 30px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.reservation__number {
+    width: 80%;
+    padding: 8px;
+    margin: 5px 30px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.reservation__course {
+    width: 80%;
+    padding: 8px;
+    margin: 5px 30px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.confirm__reservation {
+    width: 80%;
+    border-radius: 7px;
+    background-color: #587dff;
+    margin: 10px 30px;
+}
+
+th,
+td {
+    padding: 10px 30px;
+    text-align: left;
+}
+
+button.reservation-btn {
+    padding: 18px;
+    border-radius: 5px;
+    border: 1px solid #0239ff;
+    background-color: #0239ff;
+    color: #F4F4F4;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: auto;
+}
+
+.validation {
+    padding: 10px;
+    text-align: center;
+    margin-top: auto;
+}
+
+.error-message {
+    padding: 5px 50px;
+    margin: 5px;
+    font-size: 14px;
+    color: red; 
+    text-align: left;   
+}
+
+@media screen and (max-width:768px){
+    .shop-detail__container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:480px){
+    .shop__content-tag {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

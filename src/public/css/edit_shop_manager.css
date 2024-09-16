@@ -1,0 +1,169 @@
+.edit-shop-manager__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.back-btn {
+    background-color: #FFFFFF;
+    font-size: 16px;
+    border: 1px solid #F4F4F4;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px #797979;
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 100px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.left__inner {
+    grid-column: 1/2;
+    padding: 5px 5px 30px 5px;
+}
+
+.create-review__hedding {
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+.right__inner {
+    grid-column: 2/3;
+    padding: 5px 5px 30px 5px;
+}
+
+.shop__name {
+    text-align: center;
+    padding: 5px 0;
+}
+
+.shop__image {
+    text-align: center;
+}
+
+.input__file {
+    padding: 10px 0;
+}
+
+
+.upload__image {
+    width: 80%;
+    height: 350px;
+}
+
+.area-genre__tag {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.shop__area,
+.shop__genre {
+    padding: 5px;
+}
+
+.area-select,
+.genre-select {
+    padding: 0 10px;
+    font-weight: bold;
+    text-decoration: none;
+    width: 120px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.shop__content-comment {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 80%;
+    height: 25px;
+}
+
+textarea {
+  resize: none;
+  width:100%;
+  height:50px;
+}
+
+.edit-btn {
+    display: block;
+    margin: 0 auto;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #0239ff;
+    background-color: #0239ff;
+    color: #F4F4F4;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: auto;
+}
+
+.comments__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comments__box {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding: 20px;
+    margin: 5px 5px 15px 5px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px #797979;
+    background-color: #768cf9;
+    color: #F4F4F4;
+}
+
+th,
+td {   
+    font-size: 20px;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    width: 100px;
+}
+
+.gold-star {
+    color: gold;
+}
+
+.gray-star {
+    color: gray;
+}
+
+.error-message__name,
+.error-message__detail {
+    font-size: 14px;
+    color: red; 
+    text-align: left;   
+}
+
+.error-message__name {
+    padding: 5px;
+    margin: 5px 60px;
+}
+
+.error-message__detail {
+    padding: 5px;
+    margin: 1px;
+}
+
+@media screen and (max-width:768px){
+    .edit-shop-manager__container {
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,33 @@
+.verify-form__inner {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.verify-form__heading {
+    text-align: center;
+    padding: 50px 20px 20px 20px;
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  
+}
+
+.verify-form,form {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.resend__btn,button {
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    background-color: #305DFF;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: 2px solid #305DFF;
+      box-shadow: 1px 1px 5px #000;
+    font-weight: bolder;
+    cursor: pointer;
+}

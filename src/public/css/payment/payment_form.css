@@ -1,0 +1,85 @@
+.back-btn__area {
+    padding: 20px;
+    margin: 10px 80px 0 80px;
+}
+
+.back-btn {
+    background-color: #FFFFFF;
+    font-size: 16px;
+    border: 1px solid #F4F4F4;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px #797979;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.reservation__inner {
+    padding: 5px 100px;
+}
+
+.reservation_heading,
+.payment__heading {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 3px double #0239ff;
+}
+
+.reservation__table {
+    margin: 0 auto;
+}
+
+th,
+td {
+    padding: 5px;
+    font-size: 20px;
+}
+
+th {
+    text-align: right;
+}
+
+.payment__inner {
+    padding: 2px 100px;
+    text-align: center;
+}
+
+.payment__form {
+    padding: 3px;
+}
+
+.payment__box {
+    padding: 10px;
+    margin: 0 350px;
+    text-align: right;
+}
+
+label,
+input {
+    padding: 5px;
+}
+
+label {
+    font-size: 20px;
+    font-weight: bold;
+}
+input {
+    width: 50%;
+    height: 10px;
+}
+
+.pay-btn {
+    display: block;
+    margin: 0 auto;
+    font-size: 16px;
+    padding: 10px 50px;
+    border-radius: 5px;
+    border: 1px solid #0239ff;
+    background-color: #0239ff;
+    color: #F4F4F4;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: auto;
+}
