@@ -29,8 +29,7 @@
 
 ##テーブル設計
 ![スクリーンショット 2024-09-17 214459](https://github.com/user-attachments/assets/5ac1554e-9664-40fd-9078-75e92df54a91)
-![スクリーンショット 2024-09-17 214528](https://github.com/user-attachments/assets/fd453de6-0850-497c-a5ed-7b03b9e874f7)
-![スクリーンショット 2024-09-17 214542](https://github.com/user-attachments/assets/6a84dc09-8f97-45c0-b72e-3f5dc1631fe8)
+![スクリーンショット 2024-09-17 224508](https://github.com/user-attachments/assets/31f44d97-a4b2-4925-ab2c-3ebbcf77a456)
 
 ##ER図
 
