@@ -1,4 +1,6 @@
-![https___img shields io_badge_-MySQL-4479A1](https://github.com/user-attachments/assets/3fe1cf01-24eb-4d6d-a693-a56bb4adfd0e)![https___img shields io_badge_-Nginx-269539](https://github.com/user-attachments/assets/38d8142b-4ee8-462d-aa94-6171d717dc1b)![https___img shields io_badge_-Php-777BB4](https://github.com/user-attachments/assets/291a3da2-6aac-474d-b37e-45debf7e0784)# RESE
+# RESE
+![スクリーンショット 2024-09-17 203834](https://github.com/user-attachments/assets/4aac21f2-4ab5-4854-a1ef-38cfbd6b4ab5)
+
 
 ##作成した目的
 
