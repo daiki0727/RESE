@@ -96,5 +96,3 @@ php artisan migrate --seed
 1. 利用者　　　　アドレス：yamada@mail.com　  パスワード：yamada123
 2. 店舗代表者　　アドレス：sennin@mail.com　  パスワード：sennin123
 3. 管理者　　　　アドレス：admin@mail.com　   パスワード：admin1234
-
-店舗代表者
