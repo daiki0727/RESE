@@ -32,12 +32,13 @@
 ![スクリーンショット 2024-09-17 224508](https://github.com/user-attachments/assets/31f44d97-a4b2-4925-ab2c-3ebbcf77a456)
 
 ##ER図
-![スクリーンショット 2024-09-17 231517](https://github.com/user-attachments/assets/c016320c-5035-4b9b-a3ca-eafd2607e1ec)
+![スクリーンショット 2024-09-18 212027](https://github.com/user-attachments/assets/afbcef7a-45d8-4f98-b8ea-b1c99e36133e)
 
 ##環境構築
 
 ##その他
 *テストユーザーは以下をご使用ください。
-1. 利用者　　　　アドレス：yamada@mail.com　パスワード：yamada123
-2. 店舗代表者　　アドレス：sennin@mail.com　パスワード：sennin123
-3. 管理者　　　　アドレス：admin@mail.com　パスワード：admin1234
+1. 利用者　　　　アドレス：yamada@mail.com　  パスワード：yamada123
+2. 店舗代表者　　アドレス：sennin@mail.com　  パスワード：sennin123
+3. 管理者　　　　アドレス：admin@mail.com　   パスワード：admin1234
+
